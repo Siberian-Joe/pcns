@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
+      <PackageReference Include="Emgu.CV.Bitmap" Version="4.8.1.5350" />
+      <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
+      <PackageReference Include="EmguCV" Version="3.1.0.1" />
+      <PackageReference Include="ManagedCuda.NETStandard" Version="9.1.300" />
+      <PackageReference Include="OpenCV" Version="2.4.11" />
+      <PackageReference Include="System.Drawing.Common" Version="8.0.0-rc.1.23419.5" />
+    </ItemGroup>
+
+</Project>
